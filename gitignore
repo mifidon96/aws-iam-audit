@@ -1,0 +1,19 @@
+# Python
+*.pyc
+__pycache__/
+*.egg-info/
+dist/
+build/
+.env
+venv/
+.venv/
+
+# AWS - NEVER commit these
+.aws/
+*.pem
+credentials
+
+# Output files
+*.csv
+*.json
+report_*.txt
